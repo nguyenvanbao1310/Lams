@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&q=80",
+    "title": "The Importance of Occupational Standards in Developing Core Learning & Business Skills",
+    "date": "January 31st 2025",
+    "author": "Jonathan Ford",
+    "excerpt": "Using the occupational standards designed to the Regulated Qualifications Framework, LAMS courses ensure that learners study modern, employable skills.",
+    "category": "Education"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&q=80",
+    "title": "5 Most Common Master's Degrees in 2025",
+    "date": "January 27th 2025",
+    "author": "Jonathan Ford",
+    "excerpt": "Are you still pondering on what you should study? These programmes have proven to contribute to long-term career growth.",
+    "category": "Careers"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&q=80",
+    "title": "The Critical Power of Self-Assessment for Lifelong Learners",
+    "date": "January 24th 2025",
+    "author": "Jonathan Ford",
+    "excerpt": "Self-assessment is a valuable tool for personal growth and lifelong learning.",
+    "category": "Development"
+  }
+]
