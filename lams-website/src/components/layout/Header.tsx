@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import Link from "next/link";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,23 +23,23 @@ const Header = () => {
     }`}
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
-        <a href="" className="flex items-center group">
+        <Link href="/" className="flex items-center group">
           <div className="h-12 w-36 bg-linear-to-r from-amber-600 to-amber-700 flex items-center justify-center rounded-lg shadow-md group-hover:shadow-xl transition-all duration-300 group-hover:scale-110">
             <span className="text-white font-bold text-2xl tracking-wider">
               LAMS
             </span>
           </div>
-        </a>
+        </Link>
         <nav className="hidden md:flex items-center space-x-1.5">
           {["About Us", "Programs", "Contact Us", "News"].map((item, i) => (
-            <a
+            <Link
               key={i}
-              href={`#${item.toLowerCase().replace(" ", "-")}`}
+              href={`${item.toLowerCase().replace(" ", "-")}`}
               className="relative px-4 py-2 text-gray-700 font-medium transition-colors duration-300 hover:text-amber-600 group"
             >
               {item}
               <span className="absolute bottom-0 left-0 h-0.5 bg-amber-600 transition-all duration-300 group-hover: w-full"></span>
-            </a>
+            </Link>
           ))}
         </nav>
 
