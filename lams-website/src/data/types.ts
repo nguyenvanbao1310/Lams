@@ -22,6 +22,8 @@ export interface BlogPost {
   excerpt: string;
   image: string;
   date: string;
+  author: string;
+  category: string;
 }
 
 export interface HomeData {
