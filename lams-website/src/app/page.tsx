@@ -8,6 +8,7 @@ import accessible from "../../public/images/accessible.jpg";
 import readiness from "../../public/images/career-readiness.jpg";
 import Image from "next/image";
 import { MoveRight } from "lucide-react";
+import BlogSection from "@/components/ui/BlogSection";
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -199,6 +200,9 @@ export default function Home() {
         </div>
       </section>
 
+      {dataLoad && dataLoad.blogPosts && (
+        <BlogSection blogPosts={dataLoad.blogPosts} />
+      )}
       <section
         id="contact-us"
         className="py-24 bg-linear-to-br from-gray-900 via-gray-800 to-amber-900 text-white relative overflow-hidden"
