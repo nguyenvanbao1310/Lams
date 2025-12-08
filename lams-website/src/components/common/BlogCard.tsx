@@ -31,7 +31,7 @@ const BlogCard = ({ post }: BlogCardProps) => {
 
         <p className="text-gray-600 text-sm mb-4">{post.excerpt}</p>
 
-        <div className="text-sm text-gray-500">
+        <div className="text-sm text-yellow-700">
           <span>{post.date}</span> • <span>{post.author}</span>
         </div>
       </div>

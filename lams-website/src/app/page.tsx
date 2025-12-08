@@ -201,7 +201,10 @@ export default function Home() {
       </section>
 
       {dataLoad && dataLoad.blogPosts && (
-        <BlogSection blogPosts={dataLoad.blogPosts} />
+        <BlogSection
+          blogPosts={dataLoad.blogPosts}
+          title="London Academy of Management and Sciences"
+        />
       )}
       <section
         id="contact-us"
