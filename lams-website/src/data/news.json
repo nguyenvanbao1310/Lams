@@ -1,29 +1,38 @@
 [
   {
     "id": 1,
-    "image": "/images/blog_image/blog_occupational.jpg",
-    "title": "The Importance of Occupational Standards in Developing Core Learning & Business Skills",
-    "date": "January 31st 2025",
+    "image": "/images/blog_image/degree.jpg",
+    "title": "5 Steps To Choose Masters Degree",
+    "date": "November 9th, 2023",
     "author": "Jonathan Ford",
-    "excerpt": "Using the occupational standards designed to the Regulated Qualifications Framework, LAMS courses ensure that learners study modern, employable skills.",
+    "excerpt": "Pursuing a master’s degree is a significant commitment in terms of time and resources. Students will need a particular focus on knowledge and practical experience when pursuing a master’s degree, as opposed to a bachelor’s degree, and as a foundation for pursuing a doctorate in the future. Therefore, it’s crucial to approach this decision with careful consideration...",
     "category": "Education"
   },
   {
     "id": 2,
-    "image": "/images/blog_image/blog_study.jpg",
-    "title": "5 Most Common Master's Degrees in 2025",
-    "date": "January 27th 2025",
+    "image": "/images/blog_image/blog_occupational.jpg",
+    "title": "The Importance Of Occupational Standards To Higher Education Learners: 3 Reasons Why.",
+    "date": "November 9th, 2023",
     "author": "Jonathan Ford",
-    "excerpt": "Are you still pondering on what you should study? These programmes have proven to contribute to long-term career growth.",
-    "category": "Careers"
+    "excerpt": "In today’s fast-paced job market, employees must have a thorough understanding of the skills, knowledge, and behaviours required for their position. Employees should have a fundamental comprehension of their duties and responsibilities within an organization in these situations...",
+    "category": "Education"
   },
   {
     "id": 3,
+    "image": "/images/blog_image/blog_study.jpg",
+    "title": "5 Most Common Master's Degrees in 2025",
+    "date": "August 27th, 2023",
+    "author": "Jonathan Ford",
+    "excerpt": "In a world of perpetual change and boundless opportunities, the pursuit of higher education has never been more integral to personal and professional growth. Master’s degrees have become a cornerstone for individuals seeking to gain specialized knowledge, refine their skills, and stand out in competitive fields...",
+    "category": "Careers"
+  },
+  {
+    "id": 4,
     "image": "/images/blog_image/blog_learning.jpg",
     "title": "The Critical Power of Self-Assessment for Lifelong Learners",
-    "date": "January 24th 2025",
+    "date": "Semtember 23th 2025",
     "author": "Jonathan Ford",
-    "excerpt": "Self-assessment is a valuable tool for personal growth and lifelong learning.",
+    "excerpt": "Self-assessment is a powerful tool for personal growth, development, and learning. It involves taking a step back from your daily routine to examine your thoughts, behaviours, and experiences. Furthermore, this is an essential skill for lifelong learners committed to continuous personal and professional development in various prospects...",
     "category": "Development"
   }
 ]
