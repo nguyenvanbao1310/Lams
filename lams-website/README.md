@@ -26,17 +26,6 @@ Website **London Academy of Management and Sciences (LAMS)** được **rebuild 
 - Giao diện responsive (desktop / tablet / mobile)
 - Kiến trúc component rõ ràng, dễ mở rộng
 
-##  Cấu trúc thư mục chính
-
-src/
-├─ app/ # App Router (Next.js 14)
-├─ components/ # UI Components
-├─ data/ # Mock data (JSON, TS)
-├─ styles/ # Global styles
-public/
-├─ images/ # Hình ảnh tĩnh
-├─ blog_image/ # Hình ảnh của các blog dùng news
-
 ##  Link Hosting: https://lams-nguyenvanbao.netlify.app/
 
 CÀI ĐẶT MÔI TRƯỜNG, BUILD VÀ DEPLOY
