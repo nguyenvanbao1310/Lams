@@ -21,9 +21,9 @@ Website **London Academy of Management and Sciences (LAMS)** được **rebuild 
 ##  Chức năng chính
 
 - Trang Home giới thiệu tổng quan LAMS
-- Hiển thị Programs, About, News
+- Hiển thị Home, Contact, News
 - Blog / News sử dụng dữ liệu JSON (mock data)
-- Giao diện responsive (desktop / tablet / mobile)
+- Giao diện responsive (desktop / mobile)
 - Kiến trúc component rõ ràng, dễ mở rộng
 
 ##  Link Hosting: https://lams-nguyenvanbao.netlify.app/
