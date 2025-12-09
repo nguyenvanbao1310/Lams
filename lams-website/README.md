@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LAMS Website
 
-## Getting Started
+Website **London Academy of Management and Sciences (LAMS)** được **rebuild & redesign** bằng **Next.js 13+** theo hướng hiện đại, tối ưu trải nghiệm người dùng và triển khai dưới dạng **static website**.
 
-First, run the development server:
+##  Mục tiêu dự án
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Thiết kế lại giao diện website LAMS
+- Áp dụng React & Next.js theo chuẩn App Router
+- Tối ưu cho deploy static trên Netlify
+- Sử dụng mock data thay cho backend
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠 Công nghệ sử dụng
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js 13+**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **Lucide Icons**
+- **Netlify (Static Hosting)**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+##  Chức năng chính
 
-## Learn More
+- Trang Home giới thiệu tổng quan LAMS
+- Hiển thị Programs, About, News
+- Blog / News sử dụng dữ liệu JSON (mock data)
+- Giao diện responsive (desktop / tablet / mobile)
+- Kiến trúc component rõ ràng, dễ mở rộng
 
-To learn more about Next.js, take a look at the following resources:
+##  Cấu trúc thư mục chính
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+src/
+├─ app/ # App Router (Next.js 14)
+├─ components/ # UI Components
+├─ data/ # Mock data (JSON, TS)
+├─ styles/ # Global styles
+public/
+├─ images/ # Hình ảnh tĩnh
+├─ blog_image/ # Hình ảnh của các blog dùng news
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+##  Link Hosting: https://lams-nguyenvanbao.netlify.app/
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+CÀI ĐẶT MÔI TRƯỜNG, BUILD VÀ DEPLOY
+1.  Cài đặt Node.js & npm
+    - Tải và cài đặt Node.js LTS tại: https://nodejs.org/en
+    - Kiểm tra cài đặt: node -v, npm -v
+2.  Cài đặt dự án
+    - Bước 1: Tại thư mục cần lưu dự án, mở terminal
+    - Bước 2: git clone https://github.com/nguyenvanbao1310/Lams.git
+    - Bước 3: cd lams-website
+    - Bước 4: npm install
+3.  Chạy dự án
+    - Bước 1: cd lams-website
+    - Bước 2: npm run dev
+    - Bước 3: Truy cập: http://localhost:3000/
+4. Deploy trên Netlify
+    - Bước 1: Tạo thư mục hosting và git clone https://github.com/nguyenvanbao1310/Lams_Hosting
+    - Bước 2: Thực hiện bước 3 và bước 4 của mục 2.
+    - Bước 3: npm run build 
+    - khi chạy sẽ tạo ra thư mục /out dùng để deploy lên hosting.
+5. Deploy trên Netlify
+    - Truy cập vào: https://app.netlify.com
+    - upload thư mục /build lên và deploy
