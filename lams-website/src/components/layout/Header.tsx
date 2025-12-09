@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,13 +25,21 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link href="/" className="flex items-center group">
-          <div className="h-12 w-36 bg-linear-to-r from-amber-600 to-amber-700 flex items-center justify-center rounded-lg shadow-md group-hover:shadow-xl transition-all duration-300 group-hover:scale-110">
+          <div className="h-12 w-36 bg-gradient-to-r from-amber-600 to-amber-700 flex items-center justify-center rounded-lg shadow-md group-hover:shadow-xl transition-all duration-300 group-hover:scale-110">
+            <Image
+              src="/images/logo.png"
+              alt="LAMS Logo"
+              width={32}
+              height={32}
+              className="object-contain mr-4 rounded-full"
+              priority
+            />
             <span className="text-white font-bold text-2xl tracking-wider">
               LAMS
             </span>
           </div>
         </Link>
-        <nav className="hidden md:flex items-center space-x-1.5">
+        <nav className="hidden lg:flex items-center space-x-1.5">
           {["About Us", "Programs", "Contact Us", "News"].map((item, i) => (
             <Link
               key={i}
@@ -46,7 +55,7 @@ const Header = () => {
         {/*Mobile */}
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
+          className="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
         >
           <svg
             className="w-6 h-6"
@@ -72,7 +81,7 @@ const Header = () => {
             {["About Us", "Programs", "Contact Us", "News"].map((item, i) => (
               <a
                 key={i}
-                href={`#${item.toLowerCase().replace(" ", "-")}`}
+                href={`${item.toLowerCase().replace(" ", "-")}`}
                 className="block px-4 py-3 text-gray-700 hover:bg-amber-50 hover:text-amber-600 rounded-lg transition-all"
                 onClick={() => setIsMenuOpen(false)}
               >

@@ -3,7 +3,7 @@ import { MapPin, Phone, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-linear-to-br from-amber-900 via-amber-800 text-white relative overflow-hidden">
+    <footer className="bg-gradient-to-br from-amber-900 via-amber-800 text-white relative overflow-hidden">
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-0 w-64 h-64 bg-white rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl"></div>
@@ -49,7 +49,7 @@ const Footer = () => {
               {["About Us", "Courses", "News"].map((item, i) => (
                 <li key={i}>
                   <a
-                    href={`#${item.toLowerCase().replace(" ", "-")}`}
+                    href={`${item.toLowerCase().replace(" ", "-")}`}
                     className="text-amber-100 hover:text-white hover:translate-x-1 inline-block transition-all"
                   >
                     {item}
