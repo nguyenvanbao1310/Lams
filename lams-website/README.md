@@ -48,4 +48,4 @@ CÀI ĐẶT MÔI TRƯỜNG, BUILD VÀ DEPLOY
     - khi chạy sẽ tạo ra thư mục /out dùng để deploy lên hosting.
 5. Deploy trên Netlify
     - Truy cập vào: https://app.netlify.com
-    - upload thư mục /build lên và deploy
+    - upload thư mục /out lên và deploy
